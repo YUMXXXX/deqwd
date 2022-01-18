@@ -780,7 +780,7 @@ function  ems:Toggle(text,de,callback)
         end
     end
 
-function ems:DropDown(text,text2,list,callback)
+function ems:Drop(text,text2,list,callback)
 
 
     local checkdrop = {checkscol = false ; }
@@ -859,6 +859,7 @@ function ems:DropDown(text,text2,list,callback)
     TextLabelDrop2.TextSize = 10.000
     TextLabelDrop2.BorderSizePixel = 0
     TextLabelDrop2.ClipsDescendants = true 
+
 
     local DropConer = Instance.new("UICorner")
             
